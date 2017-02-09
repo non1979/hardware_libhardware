@@ -902,6 +902,8 @@ typedef struct effect_offload_param_s {
     int ioHandle;           // io handle of the playback thread the effect is attached to
 } effect_offload_param_t;
 
+// Maximum effect_param_t size
+#define EFFECT_PARAM_SIZE_MAX       65536
 
 /////////////////////////////////////////////////
 //      Effect library interface
